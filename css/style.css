@@ -1,0 +1,176 @@
+.position {
+    margin: 67px 80px 267px 132px ;
+    width: 1708px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 195px;
+}
+.main-nav {
+    width: 581px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D37F1;
+}
+
+.nav-a:hover {
+    padding: 10px 20px;
+    background-color:#3d37f1;
+    border-radius: 38px;    
+    color: white;
+}
+/* section */
+h2 {
+    color: #534D4D;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 78px;
+    width: 600px;
+    line-height: 109px;
+    margin-bottom: 42px;
+}
+.context {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #534D4D;
+}
+
+.btn {
+    margin-top: 153px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3D37F1;
+    border-radius: 38px;
+    padding: 22px;
+    width: 263.67px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size:  23px;
+}
+
+.btn:hover {
+    background-color: #984141;
+    box-shadow:
+    inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #f0f,   /* inner left magenta short */
+    inset -20px 0 80px #0ff,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
+}
+
+/* section wrapper */
+.services {
+    margin-top: 87px;
+}
+.title {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: #5A5454;
+    margin: 17px 0 21px 0;
+}
+.wrap-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #5A5454;
+    text-align: center;
+    width: 712px;
+    margin-bottom: 37px;
+    line-height: 28px;
+}
+.img-width {
+    margin: 88px 0 57px 0;
+    width: 100px;
+}
+.box-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 13.1px;
+}
+.box-cont {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    width: 328px;
+    text-align: center;
+    line-height: 26px;
+}
+.wrapper {
+    background-color: #FBFCFD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div {
+    width: 1300px;
+    height: 962px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#FBBA77, #DFA871);
+    width: 370px;
+    margin: 15px 30px;
+}
+.box-1:hover { box-shadow:
+    inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #f0f,   /* inner left magenta short */
+    inset -20px 0 80px #0ff,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
+}
+.box-1:nth-child(2) {
+    background-image: linear-gradient(#41EAE3, #2293B7);
+}
+.box-1:nth-child(3) {
+    background-image: linear-gradient(#69529F, #463864);
+}
+.box-1:nth-child(4) {
+    background-image: linear-gradient(#4386D2, #0962C5);
+}
+.box-1:nth-child(5) {
+    background-image: linear-gradient(#A5A2F6, #564FD6);
+}
+.box-1:nth-child(6) {
+    background-image: linear-gradient(#FF8088, #984141);
+}
+.box-btn {
+    width: 131px;
+    border-radius: 23px;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    border: 2px solid white;
+    margin: 11px 0 48px 0;
+}
+
+.box-btn:hover {
+    background-color: white;
+    color: black;
+}
+
