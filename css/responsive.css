@@ -1,0 +1,26 @@
+@media (max-width:1024px) {
+    nav {
+        display: none;
+    }
+    .position:nth-child(2) {
+        margin-top: 67px;
+    }
+    .burger {
+        display: block;
+        color: blue;
+        font-size: 25px;
+    }
+    .box-1  {
+        width: 40%;
+    }
+    .image {display: none;}
+}
+  .div{
+    justify-content: center;
+    }
+@media (max-width:768px) {
+    .box-1  {
+        width: 80%;
+}
+    h2 {width: fit-content;}
+}

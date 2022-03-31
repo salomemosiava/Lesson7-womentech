@@ -1,18 +1,28 @@
 .position {
-    margin: 67px 80px 267px 132px ;
-    width: 1708px;
+    margin: 67px auto ;
+    max-width: 1708px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.position:nth-child(2) {
+    margin-top: 267px;
+}
 .logo {
-    width: 195px;
+    max-width: 195px;
+    width: 10%;
 }
 .main-nav {
     width: 581px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.burger {
+    font-size: 25px;
+    color: black;
+    display: none;
 }
 
 .text {
@@ -35,13 +45,14 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size: 78px;
-    width: 600px;
+    max-width: 600px;
     line-height: 109px;
     margin-bottom: 42px;
 }
 .context {
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
+    width: 80%;
     color: #534D4D;
 }
 
@@ -53,7 +64,8 @@ h2 {
     background-color: #3D37F1;
     border-radius: 38px;
     padding: 22px;
-    width: 263.67px;
+    max-width: 263.67px;
+    width: 80%;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size:  23px;
@@ -81,19 +93,23 @@ h2 {
     font-size: 40px;
     color: #5A5454;
     margin: 17px 0 21px 0;
+    width: 80%;
+    text-align: center;
 }
 .wrap-text {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #5A5454;
     text-align: center;
-    width: 712px;
+    max-width: 712px;
+    width: 80%;
     margin-bottom: 37px;
     line-height: 28px;
 }
 .img-width {
     margin: 88px 0 57px 0;
-    width: 100px;
+    max-width: 100px;
+    width: 80%;
 }
 .box-title {
     font-family: 'Lato', sans-serif;
@@ -105,7 +121,8 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #ffffff;
-    width: 328px;
+    max-width: 328px;
+    width: 80%;
     text-align: center;
     line-height: 26px;
 }
@@ -117,7 +134,8 @@ h2 {
 }
 
 .div {
-    width: 1300px;
+    max-width: 1300px;
+    width: 80%;
     height: 962px;
     display: flex;
     flex-wrap: wrap;
@@ -129,7 +147,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     background-image: linear-gradient(#FBBA77, #DFA871);
-    width: 370px;
+    max-width: 370px;
     margin: 15px 30px;
 }
 .box-1:hover { box-shadow:
@@ -158,7 +176,8 @@ h2 {
     background-image: linear-gradient(#FF8088, #984141);
 }
 .box-btn {
-    width: 131px;
+    max-width: 131px;
+    width: 80%;
     border-radius: 23px;
     padding: 12px;
     text-align: center;
