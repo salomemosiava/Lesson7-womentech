@@ -138,7 +138,8 @@ h2 {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
+    align-content: space-between; 
+    padding-bottom: 80px;
 }
 
 .box-1 {
